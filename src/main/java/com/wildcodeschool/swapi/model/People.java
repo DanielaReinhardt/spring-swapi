@@ -3,7 +3,7 @@ package com.wildcodeschool.swapi.model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class People {
-
+    
     private String name;
     private String height;
     private String mass;
@@ -27,6 +27,7 @@ public class People {
 
     public People() {
     }
+
 
     public String getName() {
         return name;
